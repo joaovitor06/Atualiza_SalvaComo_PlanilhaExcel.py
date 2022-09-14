@@ -26,8 +26,8 @@ relatorios = {
         'nome': 'Ludiana',
         'arquivo': f'telefones_carrefour_{pastaanexo}.xlsx',
         'arquivo_maluco': f'Telefones_Carrefour_{data_maluca}.xlsx',
-        'destinatario': 'ludiana.fonseca@jarezende.com.br; geronimo.paulo@jarezende.com.br',
-        'copia': 'planejamento-mis@jarezende.com.br',
+        'destinatario': 'email@1.com.br; email@2.com.br',
+        'copia': 'email@3.com.br',
         'assunto': f'Telefones Carrefour {pastaanexo}',
         'corpo': f'base com telefones ativos do Carrefour referente ao período {pastaanexo}'        
         }
