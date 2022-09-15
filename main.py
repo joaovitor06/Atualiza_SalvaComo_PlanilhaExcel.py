@@ -15,9 +15,9 @@ corpo = r''
 
 simplegui.theme('DarkBlue')
 layout = [
-    [simplegui.Text('Relatórios Carrefour'),simplegui.Button('Acessar', key='acessar_relatorios_carrefour')],
-    [simplegui.Text('Relatórios Mapfre'),simplegui.Button('Acessar', key='acessar_relatorios_mapfre')],
-    [simplegui.Text('Relatórios UNISA'),simplegui.Button('Acessar', key='acessar_relatorios_unisa')]
+    [simplegui.Text('Relatórios Carrefour', size=(20, 1)),simplegui.Button('Acessar', key='acessar_relatorios_carrefour')],
+    [simplegui.Text('Relatórios Mapfre', size=(20, 1)),simplegui.Button('Acessar', key='acessar_relatorios_mapfre')],
+    [simplegui.Text('Relatórios UNISA', size=(20, 1)),simplegui.Button('Acessar', key='acessar_relatorios_unisa')]
     ]
 
 janela = simplegui.Window('Menu',layout, finalize=True)    
