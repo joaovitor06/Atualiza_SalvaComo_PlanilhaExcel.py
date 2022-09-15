@@ -36,7 +36,7 @@ relatorios = {
 def interface_grafica():
     simplegui.theme('DarkTeal')
     layout = [
-        [simplegui.Text('Telefones Carrefour'),simplegui.Button('Atualizar', key='AttTelefonesCarrefour'),simplegui.Button('Enviar e-mail', key='EmailTelefonesCarrefour'), simplegui.Text('', key=('txt_atualizacao')), simplegui.Text('', key=('txt_email'))]
+        [simplegui.Text('Telefones Carrefour', size=(20, 1)),simplegui.Button('Atualizar', key='AttTelefonesCarrefour'),simplegui.Button('Enviar e-mail', key='EmailTelefonesCarrefour'), simplegui.Text('', key=('txt_atualizacao')), simplegui.Text('', key=('txt_email'))]
         ]
     
     janela = simplegui.Window('Relatórios Carrefour',layout, finalize=True)
