@@ -45,8 +45,8 @@ relatorios = {
 def interface_grafica():
     simplegui.theme('DarkBlue12')
     layout = [
-        [simplegui.Text('Comparativo UNISA (Sexta-feira)'),simplegui.Button('Atualizar', key='AttComparativoUnisa'),simplegui.Button('Enviar e-mail', key='EmailComparativoUnisa'), simplegui.Text('', key=('txt_atualizacao_ComparativoUnisa')), simplegui.Text('', key=('txt_email_ComparativoUnisa'))],
-        [simplegui.Text('Comparativo UNISA FECHAMENTO (primeira Sexta-feira do mês)'),simplegui.Button('Atualizar', key='AttComparativoUnisaFechamento'),simplegui.Button('Enviar e-mail', key='AttComparativoUnisaFechamento'), simplegui.Text('', key=('txt_atualizacao_ComparativoUnisaFechamento')), simplegui.Text('', key=('txt_email_ComparativoUnisaFechamento'))]
+        [simplegui.Text('Comparativo UNISA (Sexta-feira)', size=(50, 1)),simplegui.Button('Atualizar', key='AttComparativoUnisa'),simplegui.Button('Enviar e-mail', key='EmailComparativoUnisa'), simplegui.Text('', key=('txt_atualizacao_ComparativoUnisa')), simplegui.Text('', key=('txt_email_ComparativoUnisa'))],
+        [simplegui.Text('Comparativo UNISA FECHAMENTO (primeira Sexta-feira do mês)', size=(50, 1)),simplegui.Button('Atualizar', key='AttComparativoUnisaFechamento'),simplegui.Button('Enviar e-mail', key='AttComparativoUnisaFechamento'), simplegui.Text('', key=('txt_atualizacao_ComparativoUnisaFechamento')), simplegui.Text('', key=('txt_email_ComparativoUnisaFechamento'))]
         ]
     
     janela = simplegui.Window('Relatórios UNISA',layout, finalize=True)
