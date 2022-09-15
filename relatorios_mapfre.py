@@ -36,7 +36,7 @@ relatorios = {
 def interface_grafica():
     simplegui.theme('DarkRed1')
     layout = [
-        [simplegui.Text('Acionamentos Mapfre INTERNO (Enviar às 16:30)'),simplegui.Button('Atualizar', key='AttAcionamentosMapfreInterno'),simplegui.Button('Enviar e-mail', key='EmailAcionamentosMapfreInterno'), simplegui.Text('', key=('txt_atualizacao')), simplegui.Text('', key=('txt_email'))]
+        [simplegui.Text('Acionamentos Mapfre INTERNO (Enviar às 16:30)', size=(40, 1)),simplegui.Button('Atualizar', key='AttAcionamentosMapfreInterno'),simplegui.Button('Enviar e-mail', key='EmailAcionamentosMapfreInterno'), simplegui.Text('', key=('txt_atualizacao')), simplegui.Text('', key=('txt_email'))]
         ]
     
     janela = simplegui.Window('Relatórios Mapfre',layout, finalize=True)
