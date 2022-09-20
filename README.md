@@ -20,7 +20,7 @@
 
 - Cria uma janela contendo o nome do relatório, botão para atualização e envio de e-mail, além de dois campos de texto ocultos que após a conclusão da função de atualização, um desses campos é preenchido com o tempo de execução, e outro quando a função de enviar e-mail é concluída, o segundo campo de texto é preenchido informado que o e-mail foi enviado, utilizando com referência o assunto do e-mail.
 
-<img src="janela mapfre.png">
+<img src="janela carrefour.png">
 
 -Cria as condições de retorno em relação a cada clique na janela. Em caso do botão de atualização ser acionado, ele irá construir o diretório apartir das variáveis do dicionário; depois irá verificar qual o mês referência do diretório (criar se necessário) e localizar o arquivo, após isso atualizar o Excell e calcular o tempo de execução. Em caso do botão de envio de e-mail ser acionado, seguirá o mesmo procedimento de localização do diretorio e arquivo (será o anexo do e-mail), após isso irá enviar o e-mail utilizando algumas variáveis do dicionário como destinatários, cópia, assunto, anexo e informações do corpo do e-mail.
 #### 📌 verificador_pasta_mes_vigente.py: 
