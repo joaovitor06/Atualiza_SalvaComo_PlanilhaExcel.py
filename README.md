@@ -22,7 +22,7 @@
 
 <img src="janela carrefour.png">
 
--Cria as condições de retorno em relação a cada clique na janela. Em caso do botão de atualização ser acionado, ele irá construir o diretório apartir das variáveis do dicionário; depois irá verificar qual o mês referência do diretório (criar se necessário) e localizar o arquivo, após isso atualizar o Excell e calcular o tempo de execução. Em caso do botão de envio de e-mail ser acionado, seguirá o mesmo procedimento de localização do diretorio e arquivo (será o anexo do e-mail), após isso irá enviar o e-mail utilizando algumas variáveis do dicionário como destinatários, cópia, assunto, anexo e informações do corpo do e-mail.
+- Cria as condições de retorno em relação a cada clique na janela. Em caso do botão de atualização ser acionado, ele irá construir o diretório apartir das variáveis do dicionário; depois irá verificar qual o mês referência do diretório e localizar o arquivo, após isso atualizar o Excel e calcular o tempo de execução. Em caso do botão de envio de e-mail ser acionado, seguirá o mesmo procedimento de localização do diretorio e arquivo (será o anexo do e-mail), após isso irá enviar o e-mail utilizando algumas variáveis do dicionário como destinatários, cópia, assunto, anexo e informações do corpo do e-mail.
 #### 📌 verificador_pasta_mes_vigente.py: 
 
 -Irá verificar se o diretorio existe, caso não exista, irá criá-lo, então irá verificar se o arquivo existe no diretório, caso não exista, irá copiá-lo do diretório do mês anterior, renomeando o arquivo na pasta vigente.
